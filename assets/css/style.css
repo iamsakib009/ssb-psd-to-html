@@ -1,0 +1,148 @@
+/* global styles */
+
+html {
+  font-size: 62.5%;
+}
+:root {
+  /* colorr */
+  --clr-black: #000000;
+  --clr-ash: #626262;
+  --clr-white: #ffffff;
+  /* Font Weight */
+  --fw-lg: 700;
+  --fw-regu: 400;
+  --fw-light: 300;
+
+  /* Font Family */
+  --ff-playfair: "Playfair Display", serif;
+  --ff-ubuntu: "Ubuntu", sans-serif;
+
+  /* Font Size */
+  --f-size-base: 1.6rem;
+  /* Text Transform */
+  --text-transform: uppercase;
+  /* Spacing */
+  --mb-40: 4rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--clr-white);
+  color: #626262;
+  font-family: var(--ff-playfair);
+  font-size: var(--f-size-base);
+  font-weight: var(--fw-regu);
+}
+img {
+  width: 100%;
+  display: block;
+}
+.container {
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+}
+/* Header Css */
+.header {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--clr-ash);
+}
+.banner-container {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 90%;
+}
+.logo {
+  width: 12%;
+  float: left;
+
+  margin-top: 1.3rem;
+}
+.nav {
+  width: 65%;
+  float: right;
+}
+.nav__list {
+  display: block;
+  float: right;
+}
+.nav__list-item {
+  float: left;
+  list-style: none;
+}
+.nav__list-link {
+  margin: 0 5rem;
+  padding: 2px 1px 1px;
+  display: inline-block;
+  color: var(--clr-ash);
+  text-transform: var(--text-transform);
+  text-decoration: none;
+
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+.nav__list-link:last-child {
+  margin-right: 0;
+}
+.nav__list-link:hover {
+  border-bottom: 1px solid var(--clr-ash);
+}
+/* Header End */
+/* Perfect Start */
+.perfect {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.perfect-content {
+}
+span {
+  margin: 0;
+  color: var(--clr-ash);
+  font-size: 1.4rem;
+  font-family: var(--ff-ubuntu);
+  font-weight: var(--fw-light);
+  text-transform: var(--text-transform);
+  color: #b4ad9e;
+}
+.primary-title {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  color: #626262;
+  font-size: 3rem;
+  font-family: var(--fw-regu);
+  font-weight: var(--fw-lg);
+}
+.description {
+  line-height: 1.6;
+}
+.mb-40 {
+  margin-bottom: var(--mb-40);
+}
+/* Perfect End */
+/* Blog Start */
+.single {
+  width: 47%;
+  float: left;
+  margin-top: 7rem;
+}
+.blog-wrapper {
+  padding-top: 3.5rem;
+}
+.blog-img {
+  margin-bottom: 2.5rem;
+}
+.single:nth-child(even) {
+  margin-left: 6%;
+}
+/* News */
+.content {
+  min-height: 300px;
+  background-color: var(--clr-ash);
+}
+.news {
+  padding-top: 10rem;
+}
+/* Blog End */
+/* secondary Blog Start */
