@@ -150,7 +150,7 @@ span {
 }
 .signup-title {
   margin-top: 0;
-  margin-bottom: 70px;
+  margin-bottom: 7rem;
   color: #333333;
 }
 .signup-form {
@@ -163,7 +163,7 @@ span {
   font-size: 14px;
   color: #626262;
   width: 86%;
-  height: 40px;
+  height: 4rem;
   border: none;
   background-color: transparent;
   padding-left: 1%;
@@ -178,7 +178,7 @@ span {
   background: transparent;
   border: none;
   cursor: pointer;
-  top: 12px;
+  top: 1.2rem;
   right: 0;
 }
 .signup_form button:focus {
@@ -188,12 +188,11 @@ span {
 /* newsletter End */
 /* Load More btn start */
 .loadmore {
-  padding-bottom: 140px;
+  padding-bottom: 13rem;
 }
 
 .btn-load {
-  width: 160px;
-  height: 55px;
+  padding: 2.5rem 6rem;
   display: block;
   margin: 0 auto;
   background: transparent;
@@ -202,12 +201,12 @@ span {
 /* Load more btn end */
 /* Footer start */
 .footer {
-  padding: 30px 0;
+  padding: 3rem 0;
   overflow: hidden;
   background-color: #f0f0f0;
 }
 .container-footer {
-  width: 88%;
+  width: 85%;
   margin: 0 auto;
 }
 .footer-wrapper {
@@ -222,7 +221,7 @@ span {
 }
 .footer-left p a {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #000000;
   transform: 0.3s;
 }
@@ -233,7 +232,7 @@ span {
   float: right;
 }
 .footer-right p {
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #000000;
 }
 .footer-right p,
