@@ -92,7 +92,7 @@ img {
 /* Perfect Start */
 .perfect {
   padding-top: 10rem;
-  padding-bottom: 10rem;
+  /* padding-bottom: 10rem; */
 }
 
 .perfect-content {
@@ -239,4 +239,5 @@ span {
 a {
   display: inline-block;
 }
+
 /* Footer end */
